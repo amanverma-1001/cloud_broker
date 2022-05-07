@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const axios = require('axios');
-const PORT=process.env.port || 8000;
+const port=process.env.port || 8000;
 
 
 app.use(cors());
@@ -93,6 +93,6 @@ app.post("/calculate",async(req, res)=>{
 
 
 
-app.listen(PORT, ()=>{
-    console.log("Listening to port ", PORT);
+app.listen(port, ()=>{
+    console.log("Listening to port ");
 });
