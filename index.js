@@ -28,6 +28,10 @@ const users = [
 ]
 
 
+app.get("/",(req, res) => {
+    res.send("hii Aman");
+});
+
 
 app.post("/authenticate", async (req, res)=>{
     
