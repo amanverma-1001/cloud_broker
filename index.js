@@ -24,6 +24,10 @@ const users = [
     {
         name: "Atish",
         password: "atish"
+    },
+    {
+        name:"Aunil",
+        password: "arunil"
     }
 ]
 
